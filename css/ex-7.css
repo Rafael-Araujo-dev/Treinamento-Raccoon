@@ -1,0 +1,17 @@
+.time{
+    display: flex;
+    height: 500px;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: left;
+  }
+  
+  .dev{
+    text-align: center;  
+    font-family: sans-serif;
+    width: 25%;
+  }
+  
+  .pic{
+    height: 100px;
+  }

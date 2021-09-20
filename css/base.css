@@ -1,0 +1,13 @@
+.time{
+    display: flex;
+    height: 500px;
+  }
+  
+  .dev{
+    text-align: center;  
+    font-family: sans-serif;
+  }
+  
+  .pic{
+    height: 100px;
+  }
