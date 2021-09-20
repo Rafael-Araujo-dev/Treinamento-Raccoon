@@ -1,5 +1,5 @@
 | Exercício | Link                                           |
-|:---------:| ---------------------------------------------_ |
+|:---------:| ---------------------------------------------- |
 | base      | https://jsfiddle.net/gabrielmalta/pxvtoL8a/47/ |
 | Ex 1      | https://jsfiddle.net/Rafael_Araujo/b7h80fd1/   |
 | Ex 2      | https://jsfiddle.net/Rafael_Araujo/4xewayLd/   |
