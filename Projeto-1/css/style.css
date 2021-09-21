@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI';
+}
+
+.header-container {
+    background-color: #2571B7;
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 6.5%;
+    padding-bottom: 0;
+}
+
+.menu-principal-container {
+}
+
+.menu-principal {
+    display: inline;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 8px 22px;
+    color: #FFFFFF;
+    font-size: 1.1em;
+}
+
+.menu-item.active {
+    background-color: #002050;
+    margin-bottom: 21px;
+}
+
+.hero-section {
+    background-image: url('../images/Grupo\ 52.png');
+    background-size: cover;
+}
+
+.hero-container {
+    position: relative;
+    padding-top: 14%;
+    padding-bottom: 50px;
+    width: 85%;
+    margin: auto;
+}
+
+.hero-text .title {
+    font-size: 5em;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.hero-text .subtitle {
+    font-size: 2.1em;
+    color: #FFFFFF;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+.hero-button {
+    background-color: #00A4EF;
+    color: #FFFFFF;
+    border: none;
+    padding: 15px 61px 15px 40px;
+    font-size: 1.7em;
+    font-weight: 600;
+    margin-top: 95px;
+}
+
+.hero-footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 185px;
+}
+
+.hero-footer .arrow {
+    color: #FFF;
+}
+
+.section-1 {
+    position: relative;
+    width: 85%;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.section-1-description {
+    text-align: center;
+    color: #737373;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.section-1-description .highlighted {
+    color: #F25022;
+}
+
+.section-2 {
+    position: relative;
+    width: 85%;
+    margin: auto;
+    padding-top: 7%;
+}
+
+.section-2 .section-2-title, .section-2 .section-2-subtitle {
+    text-align: center;
+}
+
+.section-2 .section-2-title {
+    color: #2571B7;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.section-2 .section-2-subtitle {
+    color: #737373;
+    font-size: 1.2em;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.section-2 .card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section-2 .card-container .card-item {
+    background-color: #ddd;
+    color: #FFFFFF;
+    width: 47%;
+    max-width: 650px;
+    min-width: 290px;
+    margin: 1%;
+} 
+
+@media (max-width: 800px) {
+    .section-2 .card-container .card-item {
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    .section-2 .card-container .card-item {
+        width: 90%;
+    }
+}
+
+@media (max-width: 400px) {
+    .section-2 .card-container .card-item {
+        width: 98%;
+    }
+}
+
+.section-2 .card-item-container {
+    display: flex;
+    padding: 28px;
+}
+
+.section-2 .card-item-container .icon {
+    margin-right: 20px;
+}
+
+.section-2 .card-container .card-item:nth-of-type(1) {
+    background-color: #0072C6;
+}
+
+.section-2 .card-container .card-item:nth-of-type(2) {
+    background-color: #2C5898;
+}
+
+.section-2 .card-container .card-item:nth-of-type(3) {
+    background-color: #207245;
+}
+
+.section-2 .card-container .card-item:nth-of-type(4) {
+    background-color: #CB4A32;
+}
+
+.section-2 .card-container .card-item:nth-of-type(5) {
+    background-color: #733781;
+}
+
+.section-2 .card-container .card-item:nth-of-type(6) {
+    background-color: #00AFF0;
+}
+
+.section-2 .card-container .card-item:nth-of-type(7) {
+    background-color: #094AB2;
+}
+
+.section-2 .card-container .card-item:nth-of-type(8) {
+    background-color: #0073C6;
+}
+
+.section-2 .card-container .card-item:nth-of-type(9) {
+    background-color: #0093BE;
+}
+
+.section-2 .card-container .card-item:nth-of-type(10) {
+    background-color: #5558AF;
+}
+
+.section-3 {
+    position: relative;
+    width: 85%;
+    margin: auto;
+    padding-top: 7%;
+}
+
+.section-3 .section-3-title {
+    color: #2571B7;
+    font-size: 2.5em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section-3 .card-item-container {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.section-3 .card-item-container .icon {
+    background-color: red;
+    border-radius: 50%;
+    padding: 20px;
+    max-width: 150px;
+}
+
+.section-3 .card-item-container .description {
+}
