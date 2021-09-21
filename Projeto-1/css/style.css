@@ -645,7 +645,7 @@
     padding: 15px 20px;
     color: #737373;
     outline: none;
-    border: none;
+    border: 2px solid transparent;
     margin-bottom: 28px;
 }
 
