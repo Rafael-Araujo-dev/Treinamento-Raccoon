@@ -461,6 +461,79 @@
     color: #FFB900;
 }
 
+.section-3 .card-item-container .description hr.divide-two {
+    display: none;
+}
+
+.section-3 .card-item-container .description hr.divide-one {
+    display: inherit;
+}
+
+@media (max-width: 706px) {
+    .section-3 {
+        width: 95%;
+    }
+
+    .section-3 .section-3-title {
+        font-size: 24px;
+        margin-bottom: -10px;
+    }
+
+    .section-3 .card-container {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .section-3 .card-item-container {
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        max-width: 95vw;
+    }
+
+    .section-3 .card-item-container .description hr {
+        width: 100%;
+    }
+
+    .section-3 .card-item-container .description hr.divide-one {
+        display: none;
+    }
+
+    .section-3 .card-item-container .description hr.divide-two {
+        display: inherit;
+        position: absolute;
+        width: 95vw;
+    }
+    
+    .section-3 .description .title {
+        font-weight: 600;
+        font-size: 15px;
+        padding-left: 10px;
+        margin-top: 45px;
+    }
+
+    .section-3 .card-item-container .description .text {
+        font-size: 12px;
+        padding: 18px 18px 18px 0px;
+        margin-left: 10px;
+    }
+
+    .section-3 .card-item-container .description {
+        text-align: left;
+    }
+
+    .section-3 .card-item-container .icon {
+        width: 70px;
+        margin-top: 70px;
+        padding: 0px;
+    }
+
+    .section-3 .card-item-container .description .card-item-button {
+        margin-top: 0px;
+        margin-left: 18px;
+        font-size: 12px;
+    }
+}
+
 .section-4 {
     position: relative;
     width: 85%;
