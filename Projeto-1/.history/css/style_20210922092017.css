@@ -64,10 +64,7 @@
     margin-left: 22px;
 }
 
-.menu-item:hover {
-    background-color: #002050;
-    cursor: pointer;
-}
+
 
 .menu-item.active {
     background-color: #002050;

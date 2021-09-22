@@ -64,11 +64,6 @@
     margin-left: 22px;
 }
 
-.menu-item:hover {
-    background-color: #002050;
-    cursor: pointer;
-}
-
 .menu-item.active {
     background-color: #002050;
     margin-bottom: 21px;
@@ -76,7 +71,7 @@
 
 .menu-item.active:hover {
     background-color: #003467;
-    cursor: pointer;
+    cursor: ;
 }
 
 @media (max-width: 945px) {

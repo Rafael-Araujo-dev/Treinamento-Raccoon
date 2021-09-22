@@ -65,8 +65,7 @@
 }
 
 .menu-item:hover {
-    background-color: #002050;
-    cursor: pointer;
+    background-color: #0072C6;
 }
 
 .menu-item.active {

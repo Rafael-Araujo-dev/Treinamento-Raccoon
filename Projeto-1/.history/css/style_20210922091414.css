@@ -64,19 +64,9 @@
     margin-left: 22px;
 }
 
-.menu-item:hover {
-    background-color: #002050;
-    cursor: pointer;
-}
-
 .menu-item.active {
     background-color: #002050;
     margin-bottom: 21px;
-}
-
-.menu-item.active:hover {
-    background-color: #003467;
-    cursor: pointer;
 }
 
 @media (max-width: 945px) {
@@ -134,7 +124,6 @@
     font-size: 1.7em;
     font-weight: 600;
     margin-top: 95px;
-    cursor: pointer;
 }
 
 .hero-button:hover {
@@ -459,7 +448,6 @@
     margin-top: 32px;
     padding: 5px 10px;
     font-size: 16px;
-    cursor: pointer;
 }
 
 .section-3 .card-item-container .description .card-item-button.green {
@@ -467,19 +455,9 @@
     color: #7FBA00;
 }
 
-.section-3 .card-item-container .description .card-item-button.green:hover {
-    background-color: #7FBA00;
-    color: #FFF;
-}
-
 .section-3 .card-item-container .description .card-item-button.blue {
     border: 2px solid #00A4EF;
     color: #00A4EF;
-}
-
-.section-3 .card-item-container .description .card-item-button.blue:hover {
-    background-color: #00A4EF;
-    color: #FFF;
 }
 
 .section-3 .card-item-container .description .card-item-button.orange {
@@ -487,10 +465,6 @@
     color: #FFB900;
 }
 
-.section-3 .card-item-container .description .card-item-button.orange:hover {
-    background-color: #FFB900;
-    color: #FFF;
-}
 .section-3 .card-item-container .description hr.divide-two {
     display: none;
 }
@@ -774,11 +748,6 @@
     font-weight: 600;
     color: #FFFFFF;
     padding: 15px 0px;
-    cursor: pointer;
-}
-
-.section-6 .form .button:hover {
-    background-color: #00AFF0;
 }
 
 @media(max-width: 1411px) {
