@@ -120,7 +120,7 @@
 
 @media (max-width: 285px) {
     .container {
-        width: 125vw;
+        width: 120vw;
     }
 }
 
@@ -130,9 +130,9 @@
     }
 }
 
-@media (max-width: 265px) {
+@media (max-width: 275px) {
     .container {
-        width: 135vw;
+        width: 130vw;
     }
 }
 

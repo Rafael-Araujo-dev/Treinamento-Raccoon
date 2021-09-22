@@ -112,27 +112,9 @@
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 2px) {
     .container {
-        width: 115vw;
-    }
-}
-
-@media (max-width: 285px) {
-    .container {
-        width: 125vw;
-    }
-}
-
-@media (max-width: 275px) {
-    .container {
-        width: 130vw;
-    }
-}
-
-@media (max-width: 265px) {
-    .container {
-        width: 135vw;
+        width: 110vw;
     }
 }
 

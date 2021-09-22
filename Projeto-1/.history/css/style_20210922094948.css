@@ -120,21 +120,16 @@
 
 @media (max-width: 285px) {
     .container {
-        width: 125vw;
+        width: 120vw;
     }
 }
 
-@media (max-width: 275px) {
+@media (max-width: 270px) {
     .container {
-        width: 130vw;
+        width: 120vw;
     }
 }
 
-@media (max-width: 265px) {
-    .container {
-        width: 135vw;
-    }
-}
 
 .hero-section {
     background-image: url('../images/Grupo\ 52.png');
