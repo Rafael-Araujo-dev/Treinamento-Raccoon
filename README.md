@@ -14,3 +14,8 @@
 # Projeto 1
 
 https://github.com/Rafael-Araujo-dev/Treinamento-Raccoon/tree/master/Projeto-1
+
+--------------------------------------------------------------------------------
+# Projeto 2
+
+https://github.com/Rafael-Araujo-dev/Treinamento-Raccoon/tree/master/Projeto-2
