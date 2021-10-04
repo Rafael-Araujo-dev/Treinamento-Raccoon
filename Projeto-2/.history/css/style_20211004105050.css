@@ -807,9 +807,6 @@
 .opinions .carousel-wrapper .item {
     flex: none;
     scroll-snap-align: start;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
 }
 
 .opinions .carousel-wrapper .items .image {
@@ -818,13 +815,10 @@
 }
 
 .opinions .carousel-wrapper .item .item-container {
-    position: relative;
-    margin: auto;
-    margin-top: 20vh;
-    width: 70%;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
+    left: 0;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
 }
 
 .opinions .carousel-wrapper .item-container .text {
@@ -836,12 +830,16 @@
 .opinions .carousel-wrapper .item-container .credits {
     font-size: 24px;
     color: #F89D24;
-    text-align: right;
-    text-transform: uppercase;
-    letter-spacing: 3.43px;
+    text-align: center;
 }
 
-.opinions .carousel-wrapper .carousel-controls {
+/* .opinions .carousel-item {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.opinions .carousel .carousel-controls {
     position: absolute;
     height: 100vh;
     margin: 0 7.5vw;
@@ -852,9 +850,27 @@
     color: #fff;
 }
 
-.opinions .carousel-wrapper .carousel-controls i {
+.opinions .carousel .carousel-controls i {
     font-size: 34px;
     color: #686868;
     font-weight: bolder;
     cursor: pointer;
 }
+
+.opinions .carousel-wrapper .item {
+    position: absolute;
+    width: 100vw;
+}
+
+.opinions .carousel-wrapper .text {
+    font-size: 54px;
+    text-align: center;
+    color: #FFF;
+    letter-spacing: 1.13px;
+}
+
+.opinions .carousel-wrapper .credits {
+    font-size: 24px;
+    color: #F89D24;
+    text-align: right;
+} */
