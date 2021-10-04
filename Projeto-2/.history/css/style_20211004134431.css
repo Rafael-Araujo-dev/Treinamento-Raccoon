@@ -793,12 +793,8 @@
 
 .opinions .carousel-wrapper .items {
     display: flex;
-    overflow-x: auto;
+    overflow-x:visible;
     scroll-snap-type: x mandatory;
-}
-
-.opinions .carousel-wrapper .items::-webkit-scrollbar {
-    display: none;
 }
 
 .opinions .carousel-wrapper .carousel-item {

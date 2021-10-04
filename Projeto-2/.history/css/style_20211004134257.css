@@ -797,10 +797,6 @@
     scroll-snap-type: x mandatory;
 }
 
-.opinions .carousel-wrapper .items::-webkit-scrollbar {
-    display: none;
-}
-
 .opinions .carousel-wrapper .carousel-item {
     flex: none;
     scroll-snap-align: start;

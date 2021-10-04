@@ -785,6 +785,7 @@
 .opinions {
     background-attachment: fixed;
     background-size: cover;
+    min-height: 100vh;
 }
 
 .opinions .carousel-wrapper {
@@ -797,17 +798,12 @@
     scroll-snap-type: x mandatory;
 }
 
-.opinions .carousel-wrapper .items::-webkit-scrollbar {
-    display: none;
-}
-
 .opinions .carousel-wrapper .carousel-item {
     flex: none;
     scroll-snap-align: start;
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-position: center;
 }
 
 .opinions .carousel-wrapper .items .image {
@@ -823,7 +819,6 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 @media (max-width: 510px) {
