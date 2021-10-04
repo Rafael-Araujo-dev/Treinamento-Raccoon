@@ -797,7 +797,7 @@
 .opinions .carousel-item {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    justify-content: space-around;
 }
 
 .opinions .carousel-item .image {

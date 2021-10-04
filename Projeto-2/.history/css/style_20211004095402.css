@@ -794,12 +794,6 @@
     min-height: 100vh;
 }
 
-.opinions .carousel-item {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
-
 .opinions .carousel-item .image {
     max-width: 100%;
     min-height: 100vh;
@@ -810,8 +804,6 @@
 .opinions .carousel-item .item-container {
     display: flex;
     flex-direction: column;
-    position: relative;
-    margin: auto;
     width: 80%;
 }
 
