@@ -7,8 +7,6 @@ window.onload = function (){
 
     var items = document.getElementsByClassName("item-container");
     countItems = (items.length) - 1;
-    console.log("items: "+countItems);
-
 
     let slide = 0;
     
