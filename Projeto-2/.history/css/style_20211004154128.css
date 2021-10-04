@@ -784,7 +784,7 @@
 .opinions {
     background-attachment: fixed;
     background-size: cover;
-
+    min-height: 100vh;
 }
 
 .opinions .carousel-wrapper {
@@ -935,7 +935,7 @@
 
 @media (max-width: 450px) {
     .course-methodologies .col.l {
-        max-width: 85%;
+        max-width: 90%;
     }
 }
 

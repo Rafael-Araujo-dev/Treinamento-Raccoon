@@ -8,7 +8,7 @@ window.onload = function () {
     btnNext.addEventListener("click", moveNext);
 
     //Verifica a quantidade de elementos no carousel
-    var itemsClassName = "carousel-item";
+    var itemsClassName = "item-container";
         items = document.getElementsByClassName(itemsClassName);
     countItems = (items.length) - 1;
 
@@ -54,3 +54,4 @@ window.onload = function () {
         }
     }
 }
+

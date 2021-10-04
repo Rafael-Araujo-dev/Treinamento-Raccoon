@@ -784,7 +784,7 @@
 .opinions {
     background-attachment: fixed;
     background-size: cover;
-
+    min-height: 100vh;
 }
 
 .opinions .carousel-wrapper {

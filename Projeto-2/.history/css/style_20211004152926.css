@@ -784,7 +784,7 @@
 .opinions {
     background-attachment: fixed;
     background-size: cover;
-
+    min-height: 100vh;
 }
 
 .opinions .carousel-wrapper {
@@ -925,20 +925,6 @@
     align-self: center;
 }
 
-@media (max-width: 650px) {
-    .course-methodologies .col.l {
-        max-width: 337px;
-        margin-top: 50px;
-        margin-left: 0;
-    }
-}
-
-@media (max-width: 450px) {
-    .course-methodologies .col.l {
-        max-width: 85%;
-    }
-}
-
 .course-methodologies .col .rectangule {
     position: absolute;
     margin-top: -18.5vh;
@@ -1067,17 +1053,7 @@
     color: #B5B5B5;
 }
 
-.course-methodologies .col.l .title {
+.course-methodologies .col .l .text{
     color: #F89D24;
     font-size: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-.course-methodologies .col.l .description {
-    color: #B5B5B5;
-    font-size: 16px;
-    letter-spacing: 0px;
-    margin-top: 7px;
-    margin-bottom: 32px;
 }

@@ -8,7 +8,7 @@ window.onload = function () {
     btnNext.addEventListener("click", moveNext);
 
     //Verifica a quantidade de elementos no carousel
-    var itemsClassName = "carousel-item";
+    var itemsClassName = "item-container";
         items = document.getElementsByClassName(itemsClassName);
     countItems = (items.length) - 1;
 
@@ -20,6 +20,7 @@ window.onload = function () {
 
     //Função que irá exibir o conteúdo do próximo item do carousel com efeito de animação 'smooth'
     function moveNext () {
+        console.log(slide);
         //Verificação se existe um próximo item á ser exibido no carousel
         if (slide < countItems) {
             slide++;
@@ -29,6 +30,7 @@ window.onload = function () {
     }
 
     function movePrev () {
+        console.log(slide);
         //Verificação se existe um item anterior do qual está sendo exibido no carousel
         if (slide > 0){
             slide--;
@@ -54,3 +56,4 @@ window.onload = function () {
         }
     }
 }
+

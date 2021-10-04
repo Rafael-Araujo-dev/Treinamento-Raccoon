@@ -784,7 +784,7 @@
 .opinions {
     background-attachment: fixed;
     background-size: cover;
-
+    min-height: 100vh;
 }
 
 .opinions .carousel-wrapper {
@@ -957,7 +957,7 @@
 
 @media (max-width: 450px) {
     .course-methodologies .col .rectangule {
-        margin-top: -6.5vh;
+
         margin-left: 3.8vw;
         width: 110px;
         height: 110px;

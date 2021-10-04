@@ -8,8 +8,7 @@ window.onload = function () {
     btnNext.addEventListener("click", moveNext);
 
     //Verifica a quantidade de elementos no carousel
-    var itemsClassName = "carousel-item";
-        items = document.getElementsByClassName(itemsClassName);
+    var items = document.getElementsByClassName("item-container");
     countItems = (items.length) - 1;
 
     //Define a posição inicial do carousel
@@ -54,3 +53,4 @@ window.onload = function () {
         }
     }
 }
+
