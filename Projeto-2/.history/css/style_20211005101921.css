@@ -166,6 +166,7 @@
 
 @media (max-width: 450px) {
     .hero-btn-group {
+        flex-wrap: wrap;
         margin-bottom: 33px;
     }
 }
@@ -1050,6 +1051,7 @@
     background-image: url('../images/negociando@2x.png');
     background-size: contain;
     background-repeat: no-repeat;
+    min-height: 100vh;
     padding-top: 18.6vh;
     margin-top: -1px;
 }
