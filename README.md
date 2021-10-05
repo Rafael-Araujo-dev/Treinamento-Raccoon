@@ -19,3 +19,7 @@ https://github.com/Rafael-Araujo-dev/Treinamento-Raccoon/tree/master/Projeto-1
 # Projeto 2
 
 https://github.com/Rafael-Araujo-dev/Treinamento-Raccoon/tree/master/Projeto-2
+
+#### Preview Desktop
+
+<img src="https://github.com/Rafael-Araujo-dev/Treinamento-Raccoon/blob/master/Projeto-2/images/screencapture-preview.png" width="350" title="hover text">
