@@ -1199,14 +1199,6 @@
 
 @media (max-width: 780px) {
     .footer .container {
-        flex-direction: column;
-        grid-row-gap: 44px;
-        text-align: center;
-    }
-
-    .footer .container .text {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-row-gap: 20px;
+        flex-wrap: wrap;
     }
 }

@@ -1199,9 +1199,9 @@
 
 @media (max-width: 780px) {
     .footer .container {
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
         grid-row-gap: 44px;
-        text-align: center;
     }
 
     .footer .container .text {

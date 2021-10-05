@@ -1200,6 +1200,7 @@
 @media (max-width: 780px) {
     .footer .container {
         flex-direction: column;
+        justify-content: center;
         grid-row-gap: 44px;
         text-align: center;
     }
