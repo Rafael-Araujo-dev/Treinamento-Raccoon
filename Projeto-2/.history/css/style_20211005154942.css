@@ -1237,7 +1237,6 @@
 }
 
 .modal .container {
-    position: relative;
     padding: 5% 10%;
 }
 
@@ -1274,6 +1273,7 @@
     grid-row-gap: 16px;
     width: 90%;
     max-width: 328px;
+
     margin: auto;
 }
 
