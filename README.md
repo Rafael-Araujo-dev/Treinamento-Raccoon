@@ -15,6 +15,14 @@
 
 https://github.com/Rafael-Araujo-dev/Treinamento-Raccoon/tree/master/Projeto-1
 
+#### Preview Desktop
+
+<img src="https://github.com/Rafael-Araujo-dev/Treinamento-Raccoon/blob/master/Projeto-1/images/screenshot-preview-desktop.png" width="350" title="hover text">
+
+#### Preview Mobile
+
+<img src="https://github.com/Rafael-Araujo-dev/Treinamento-Raccoon/blob/master/Projeto-1/images/screenshot-preview-mobile.png" width="350" title="hover text">
+
 --------------------------------------------------------------------------------
 # Projeto 2
 
