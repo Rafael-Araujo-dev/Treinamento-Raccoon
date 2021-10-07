@@ -1,14 +1,12 @@
 window.onload = function () {
     var modal = document.getElementById("modal");
+    closeModal();
     var btnCloseModal = document.getElementById("btn-close-modal");
+    btnCloseModal.addEventListener("click", closeModal);
 
     const closeModal = () => {
         modal.style.visibility = "hidden";
     }
-
-    closeModal();
-    
-    btnCloseModal.addEventListener("click", closeModal);
 
     let handle_formPhone = (e) => {
         var value = e.target.value;
@@ -26,7 +24,6 @@ window.onload = function () {
             formPhone.value = formatted
         )
     }
-    
 }
 
 const openModal = () => {

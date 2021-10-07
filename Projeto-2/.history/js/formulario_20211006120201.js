@@ -1,22 +1,21 @@
 window.onload = function () {
     var modal = document.getElementById("modal");
+    closeModal();
     var btnCloseModal = document.getElementById("btn-close-modal");
+    btnCloseModal.addEventListener("click", closeModal);
 
-    const closeModal = () => {
+    function closeModal() {
         modal.style.visibility = "hidden";
     }
 
-    closeModal();
-    
-    btnCloseModal.addEventListener("click", closeModal);
+
+    var formPhone = document.getElementById("form-phone");
+        formPhone.addEventListener('input', handle_formPhone);
 
     let handle_formPhone = (e) => {
         var value = e.target.value;
         return phoneMask(value)
     }
-
-    var formPhone = document.getElementById("form-phone");
-        formPhone.addEventListener('input', handle_formPhone);
 
     const phoneMask = (phone) => {
         if (phone != undefined) {
@@ -26,10 +25,9 @@ window.onload = function () {
             formPhone.value = formatted
         )
     }
-    
 }
 
-const openModal = () => {
+function openModal() {
     var modal = document.getElementById("modal");
     modal.style.visibility = "visible";
 }
